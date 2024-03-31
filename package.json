@@ -9,7 +9,8 @@
   "author": "Joaquin Guerrini",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "exceljs": "^4.4.0",
+    "husky": "^9.0.11",
     "tsup": "^8.0.2"
   },
   "resolutions": {
