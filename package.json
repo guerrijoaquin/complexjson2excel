@@ -1,0 +1,25 @@
+{
+  "name": "complexjson2excel",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Convert complex json tree list to excel file",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "Joaquin Guerrini",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "tsup": "^8.0.2"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.1"
+  }
+}
