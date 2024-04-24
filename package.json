@@ -1,7 +1,7 @@
 {
   "name": "complexjson2excel",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert complex json tree list to excel file",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
